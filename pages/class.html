@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <table class="table">
+    <tr>
+      <th>Classification</th>
+      <th class="text-right">Active</th>
+    </tr>
+    <tr ng-repeat="item in result">
+      <td>
+        <a href="#subClass?classId={{item.class_id}}">{{item.class_name}}</a>
+      </td>
+      <td class="text-right">{{item.active}}</td>
+    </tr>
+  </table>
+</div>

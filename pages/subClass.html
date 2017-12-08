@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h2>{{result[0].class_name}}</h2>
+  <table class="table">
+    <tr>
+      <th>Classification</th>
+      <th class="text-right">Active</th>
+    </tr>
+    <tr ng-repeat="item in result">
+      <td>{{item.sub_class_name}}</td>
+      <td class="text-right">{{item.active}}</td>
+    </tr>
+  </table>
+</div>
